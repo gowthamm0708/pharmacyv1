@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("med.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.logo {
+  color: aliceblue;
+  font-size: 42px;
+}
+
+span {
+  color: #4974df;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #4974df;
+  transition: 0.3s;
+}
+
+button {
+  border: none;
+  background: #4974df;
+  padding: 12px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+button:hover {
+  background: darkorange;
+  transform: scale(1.3s);
+  cursor: pointer;
+}
+
+span:hover {
+  color: chartreuse;
+}
+
+.logo:hover {
+  color: darkorange;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 20%;
+
+  font-size: 42px;
+  font-weight: 800;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
